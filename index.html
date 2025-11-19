@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PromptDeamon — TikTok App Review</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.5;margin:20px;color:#111}
+.container{max-width:900px;margin:0 auto}
+.header{display:flex;align-items:center;gap:12px}
+.logo{width:64px;height:64px;background:#eee;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:bold}
+.card{background:#fafafa;padding:18px;border:1px solid #eee;border-radius:8px;margin-top:12px}
+pre{background:#f4f4f4;padding:12px;border-radius:6px;overflow:auto}
+a{color:#0b68d1}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">PD</div>
+    <div>
+      <h1>PromptDeamon — TikTok App Review</h1>
+      <p style="margin:0">Kurzbeschreibung und Demo-Links für das TikTok-Review-Team</p>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2>Kurzbeschreibung</h2>
+    <p>PromptDeamon ermöglicht Nutzer:innen, KI-Videos zu erstellen, zu bearbeiten, zu planen und direkt in ihr TikTok-Profil hochzuladen. Die Authentifizierung erfolgt über das TikTok Login Kit; Uploads via Content Posting API. Es werden nur notwendige Scopes genutzt.</p>
+  </section>
+
+  <section class="card">
+    <h2>Demo-Anweisungen (für Reviewer)</h2>
+    <ol>
+      <li>Öffnen Sie die Startseite und klicken Sie auf "Mit TikTok einloggen".</li>
+      <li>Autorisiere die App (OAuth) — wir verwenden nur user.info.basic und video.upload.</li>
+      <li>Erstellen Sie ein kurzes Beispielvideo mit dem Generieren-Tool oder laden Sie eine Datei hoch.</li>
+      <li>Wählen Sie "Jetzt veröffentlichen" oder plane einen Zeitpunkt und bestätigen Sie den Upload.</li>
+      <li>Beobachten Sie die Bestätigung und prüfen Sie den Eintrag im verbundenen TikTok-Konto.</li>
+    </ol>
+
+    <h3>Erforderliche Testdaten</h3>
+    <p>Test-Account: Bitte eigenen Test-Reviewer-Account verwenden. Demo-Video-Datei: mp4, max. 50 MB.</p>
+  </section>
+
+  <section class="card">
+    <h2>App-Scopes</h2>
+    <pre>user.info.basic
+video.upload
+video.list</pre>
+  </section>
+
+  <footer style="margin-top:18px;color:#666">
+    <small>Support: <a href="mailto:odin88ff15@gmail.com">odin88ff15@gmail.com</a> — Stand: 19.11.2025</small>
+  </footer>
+</div>
+</body>
+</html>
