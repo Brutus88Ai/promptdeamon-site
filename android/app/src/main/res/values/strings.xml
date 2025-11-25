@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BrutusAi Pilot</string>
+    <string name="title_activity_main">BrutusAi Pilot</string>
+    <string name="package_name">com.brutusai.pilot</string>
+    <string name="custom_url_scheme">com.brutusai.pilot</string>
+</resources>
